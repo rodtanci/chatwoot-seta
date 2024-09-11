@@ -3,12 +3,14 @@
     "HEADER": "Registros de Auditoria",
     "HEADER_BTN_TXT": "Adicionar Registros de Auditoria",
     "LOADING": "Buscando Logs de Auditoria",
+    "DESCRIPTION": "Os registros de auditoria mantêm um registro das atividades em sua conta, permitindo rastrear e auditar sua conta, equipe ou serviços.",
+    "LEARN_MORE": "Saiba mais sobre registros de auditoria",
     "SEARCH_404": "Não existem itens correspondentes a esta consulta",
-    "SIDEBAR_TXT": "<p><b>Registros de Auditoria</b> </p><p> Registros de Auditoria são trilhas para eventos e ações em um Sistema Chatwoot. </p>",
+    "SIDEBAR_TXT": "<p><b>Registros de Auditoria</b> </p><p> Registros de Auditoria são trilhas para eventos e ações em um Sistema SetaBot. </p>",
     "LIST": {
       "404": "Não há Registros de Auditoria disponíveis nesta conta.",
       "TITLE": "Gerenciar Registros de Auditoria",
-      "DESC": "Registros de Auditoria são trilhas para eventos e ações em um Sistema Chatwoot.",
+      "DESC": "Registros de Auditoria são trilhas para eventos e ações em um Sistema SetaBot.",
       "TABLE_HEADER": [
         "Usuário",
         "Ação",

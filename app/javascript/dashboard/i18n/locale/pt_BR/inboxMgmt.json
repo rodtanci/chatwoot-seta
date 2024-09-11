@@ -1,9 +1,11 @@
 {
   "INBOX_MGMT": {
     "HEADER": "Caixas de Entrada",
-    "SIDEBAR_TXT": "<p><b>Caixa de entrada</b></p> <p> Quando você conectar um site ou uma página de Facebook ao Chatwoot, é chamado de <b>caixa de entrada</b>. Você pode ter caixas de entrada ilimitadas na sua conta de Chatwoot. </p><p> Clique em <b>Adicionar caixa de entrada</b> para conectar um site ou uma página do Facebook. </p><p> No Painel, você pode ver todas as conversas de todas as suas caixas de entrada em um único lugar e responder a elas sob a guia `Conversations`. </p><p> Você também pode ver conversas específicas para uma caixa de entrada clicando no nome da caixa de entrada no painel esquerdo do painel. </p>",
-    "RECONNECTION_REQUIRED": "Your inbox is disconnected. You won't receive new messages until you reauthorize it.",
-    "CLICK_TO_RECONNECT": "Click here to reconnect.",
+    "DESCRIPTION": "Um canal é o modo de comunicação que seu cliente escolhe para interagir com você. Uma caixa de entrada é onde você gerencia interações para um canal específico. Pode incluir comunicações de várias fontes, como e-mail, chat ao vivo e mídia social.",
+    "LEARN_MORE": "Saiba mais sobre caixas de entrada",
+    "SIDEBAR_TXT": "<p><b>Caixa de entrada</b></p> <p> Quando você conectar um site ou uma página de Facebook ao SetaBot, é chamado de <b>caixa de entrada</b>. Você pode ter caixas de entrada ilimitadas na sua conta de SetaBot. </p><p> Clique em <b>Adicionar caixa de entrada</b> para conectar um site ou uma página do Facebook. </p><p> No Painel, você pode ver todas as conversas de todas as suas caixas de entrada em um único lugar e responder a elas sob a guia `Conversations`. </p><p> Você também pode ver conversas específicas para uma caixa de entrada clicando no nome da caixa de entrada no painel esquerdo do painel. </p>",
+    "RECONNECTION_REQUIRED": "Sua caixa de entrada está desconectada. Você não receberá novas mensagens até que a autorize novamente.",
+    "CLICK_TO_RECONNECT": "Clique aqui para reconectar.",
     "LIST": {
       "404": "Não há caixas de entrada anexadas a esta conta."
     },
@@ -11,7 +13,7 @@
       {
         "title": "Escolha o canal",
         "route": "settings_inbox_new",
-        "body": "Escolha o provedor que você deseja integrar com o Chatwoot."
+        "body": "Escolha o provedor que você deseja integrar com o SetaBot."
       },
       {
         "title": "Criar Caixa de Entrada",
@@ -40,7 +42,7 @@
         "PLACEHOLDER": "Informe o nome do seu site (por exemplo: Acme Inc)"
       },
       "FB": {
-        "HELP": "Obs: ao fazer login, apenas temos acesso às mensagens da sua página. Suas mensagens privadas nunca podem ser acessadas pelo Chatwoot.",
+        "HELP": "Obs: ao fazer login, apenas temos acesso às mensagens da sua página. Suas mensagens privadas nunca podem ser acessadas pelo SetaBot.",
         "CHOOSE_PAGE": "Escolher Página",
         "CHOOSE_PLACEHOLDER": "Selecione uma página da lista",
         "INBOX_NAME": "Nome da Caixa de Entrada",
@@ -221,9 +223,9 @@
           "UNOAPI": "Unoapi"
         },
         "INBOX_NAME": {
-          "LABEL": "Inbox Name",
-          "PLACEHOLDER": "Please enter an inbox name",
-          "ERROR": "This field is required"
+          "LABEL": "Nome da caixa de entrada",
+          "PLACEHOLDER": "Por favor, insira um nome de caixa de entrada",
+          "ERROR": "Este campo é obrigatório"
         },
         "SEND_AGENT_NAME": {
           "LABEL": "Enviar nome do agent",
@@ -231,14 +233,14 @@
           "ERROR": "Selecione para enviar o nome do agent."
         },
         "IGNORE_HISTORY": {
-          "LABEL": "Ignore history on connect",
-          "PLACEHOLDER": "Check to ignore history on connect.",
-          "ERROR": "Check to ignore history on connect."
+          "LABEL": "Ignorar histórico ao conectar",
+          "PLACEHOLDER": "Marque para ignorar o histórico na conexão.",
+          "ERROR": "Marque para ignorar o histórico na conexão."
         },
         "WEBWOOK_SEND_NEW_MESSAGES": {
-          "LABEL": "Webhook send new messages",
-          "PLACEHOLDER": "Check to ignore history on connect.",
-          "ERROR": "Check to webhook send new messages."
+          "LABEL": "Webhook envia novas mensagens",
+          "PLACEHOLDER": "Marque para ignorar o histórico na conexão.",
+          "ERROR": "Marque para enviar novas mensagens via webhook."
         },
         "IGNORE_GROUPS": {
           "LABEL": "Ignorar mensagens de grupos",
@@ -391,7 +393,7 @@
       },
       "AUTH": {
         "TITLE": "Escolha um canal",
-        "DESC": "O Chatwoot suporta widgets de chats ao vivo, Facebook Messenger, perfis do Twitter, WhatsApp, E-mails, etc., como canais. Se você quiser criar um canal personalizado, você pode criá-lo usando o canal API. Para começar, escolha um dos canais abaixo."
+        "DESC": "O SetaBot suporta widgets de chats ao vivo, Facebook Messenger, perfis do Twitter, WhatsApp, E-mails, etc., como canais. Se você quiser criar um canal personalizado, você pode criá-lo usando o canal API. Para começar, escolha um dos canais abaixo."
       },
       "AGENTS": {
         "TITLE": "Agentes",
@@ -401,11 +403,11 @@
       },
       "DETAILS": {
         "TITLE": "Detalhes da Caixa de Entrada",
-        "DESC": "No menu abaixo, selecione a Página do Facebook que você deseja se conectar ao Chatwoot. Você também pode dar um nome personalizado para sua caixa de entrada para uma melhor identificação."
+        "DESC": "No menu abaixo, selecione a Página do Facebook que você deseja se conectar ao SetaBot. Você também pode dar um nome personalizado para sua caixa de entrada para uma melhor identificação."
       },
       "FINISH": {
         "TITLE": "Tudo funcionando. Deu certo!",
-        "DESC": "Você concluiu a integração da sua página do Facebook com o Chatwoot. Na próxima vez que um cliente enviar uma mensagem para sua página, a conversa aparecerá automaticamente na sua caixa de entrada. <br> Também estamos fornecendo um script de widget que você pode adicionar facilmente ao seu site. Assim que estiver disponível no seu site, os clientes poderão enviar mensagens diretamente do seu site, sem a ajuda de nenhuma ferramenta externa, e a conversa aparecerá aqui, no Chatwoot. Legal, hein? Com certeza estamos tentamos ser :)"
+        "DESC": "Você concluiu a integração da sua página do Facebook com o SetaBot. Na próxima vez que um cliente enviar uma mensagem para sua página, a conversa aparecerá automaticamente na sua caixa de entrada. <br> Também estamos fornecendo um script de widget que você pode adicionar facilmente ao seu site. Assim que estiver disponível no seu site, os clientes poderão enviar mensagens diretamente do seu site, sem a ajuda de nenhuma ferramenta externa, e a conversa aparecerá aqui, no SetaBot. Legal, hein? Com certeza estamos tentamos ser :)"
       },
       "EMAIL_PROVIDER": {
         "TITLE": "Selecione seu provedor de e-mail",
@@ -415,22 +417,22 @@
         "TITLE": "Microsoft Email",
         "DESCRIPTION": "Clique no botão Entrar com a Microsoft para começar. Você será redirecionado para o login do e-mail. Após aceitar as permissões solicitadas, você será redirecionado de volta para a etapa de criação da caixa de entrada.",
         "EMAIL_PLACEHOLDER": "Digite o endereço de e-mail",
-        "SIGN_IN": "Sign in with Microsoft",
+        "SIGN_IN": "Entrar com a Microsoft",
         "HELP": "Para adicionar sua conta da Microsoft como um canal, você precisa autenticar em sua conta clicando em 'Entrar com a Microsoft' ",
-        "ERROR_MESSAGE": "There was an error connecting to Microsoft, please try again"
+        "ERROR_MESSAGE": "Ocorreu um erro ao conectar-se à Microsoft, tente novamente"
       },
       "GOOGLE": {
         "TITLE": "Google Email",
-        "DESCRIPTION": "Click on the Sign in with Google button to get started. You will redirected to the email sign in page. Once you accept the requested permissions, you would be redirected back to the inbox creation step.",
-        "SIGN_IN": "Sign in with Google",
-        "EMAIL_PLACEHOLDER": "Enter email address",
-        "HELP": "To add your Google account as a channel, you need to authenticate your Google account by clicking on 'Sign in with Google' ",
-        "ERROR_MESSAGE": "There was an error connecting to Google, please try again"
+        "DESCRIPTION": "Clique no botão Sign in with Google para começar. Você será redirecionado para a página de login de e-mail. Depois de aceitar as permissões solicitadas, você será redirecionado de volta para a etapa de criação da caixa de entrada.",
+        "SIGN_IN": "Entrar com o Google",
+        "EMAIL_PLACEHOLDER": "Digite o endereço de e-mail",
+        "HELP": "Para adicionar sua conta do Google como um canal, você precisa autenticar sua conta do Google clicando em 'Fazer login com o Google'",
+        "ERROR_MESSAGE": "Ocorreu um erro ao conectar ao Google, tente novamente"
       }
     },
     "DETAILS": {
       "LOADING_FB": "Autenticando você com o Facebook...",
-      "ERROR_FB_LOADING": "Error loading Facebook SDK. Please disable any ad-blockers and try again from a different browser.",
+      "ERROR_FB_LOADING": "Erro ao carregar o SDK do Facebook. Desabilite todos os bloqueadores de anúncios e tente novamente em um navegador diferente.",
       "ERROR_FB_AUTH": "Algo deu errado, por favor, atualize a página...",
       "ERROR_FB_UNAUTHORIZED": "Você não está autorizado a realizar esta ação. ",
       "ERROR_FB_UNAUTHORIZED_HELP": "A tradução é:\n\nPor favor, certifique-se de que você tem acesso à página do Facebook com controle total. Você pode ler mais sobre as funções do Facebook <a href=\" https://www.facebook.com/help/187316341316631\">aqui</a>.",
@@ -796,7 +798,7 @@
         "USER_MESSAGE": "Oi",
         "AGENT_MESSAGE": "Olá"
       },
-      "BRANDING_TEXT": "Desenvolvido por Chatwoot",
+      "BRANDING_TEXT": "Desenvolvido por SetaBot",
       "SCRIPT_SETTINGS": "\n      window.chatwootSettings = {options};"
     },
     "EMAIL_PROVIDERS": {

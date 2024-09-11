@@ -1,7 +1,10 @@
 {
   "TEAMS_SETTINGS": {
     "NEW_TEAM": "Criar nova equipe",
-    "HEADER": "Times",
+    "HEADER": "Equipes",
+    "LOADING": "Buscando equipes",
+    "DESCRIPTION": "As equipes permitem que você organize agentes em grupos com base em suas responsabilidades. Um agente pode pertencer a várias equipes. Ao trabalhar de forma colaborativa, você pode atribuir conversas a equipes específicas.",
+    "LEARN_MORE": "Saiba mais sobre equipes",
     "SIDEBAR_TXT": "<p><b>Equipes</b></p> <p>As equipes permitem que você organize seus agentes em grupos baseados em suas responsabilidades. <br /> Um agente pode fazer parte de várias equipes. Você pode atribuir conversas a uma equipe quando você estiver trabalhando colaborativamente. </p>",
     "LIST": {
       "404": "Não existem agentes associados a esta conta.",

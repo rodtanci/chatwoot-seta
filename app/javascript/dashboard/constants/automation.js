@@ -49,22 +49,22 @@ export const MESSAGE_CONDITION_VALUES = [
 export const PRIORITY_CONDITION_VALUES = [
   {
     id: 'nil',
-    name: 'None',
+    name: 'Nenhum',
   },
   {
     id: 'low',
-    name: 'Low',
+    name: 'Baixo',
   },
   {
     id: 'medium',
-    name: 'Medium',
+    name: 'Médio',
   },
   {
     id: 'high',
-    name: 'High',
+    name: 'Alto',
   },
   {
     id: 'urgent',
-    name: 'Urgent',
+    name: 'Urgente',
   },
 ];

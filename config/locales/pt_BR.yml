@@ -100,9 +100,9 @@ pt_BR:
       conversation_id: Conversas
       sla_policy_breached: Política SLA
       assignee: Responsável
-      team: Times
+      team: Equipes
       inbox: Caixa de Entrada
-      labels: Marcadores
+      labels: Etiquetas
       conversation_link: Link para a conversa
       breached_events: Eventos Violados
     default_group_by: dia
@@ -189,32 +189,32 @@ pt_BR:
   integration_apps:
     dashboard_apps:
       name: "Apps da Dashboard"
-      description: "Dashboard Apps allow you to create and embed applications that display user information, orders, or payment history, providing more context to your customer support agents."
+      description: "Os aplicativos de painel permitem que você crie e incorpore aplicativos que exibem informações do usuário, pedidos ou histórico de pagamentos, fornecendo mais contexto aos seus agentes de suporte ao cliente."
     dyte:
       name: "Dyte"
-      description: "Dyte is a product that integrates audio and video functionalities into your application. With this integration, your agents can start video/voice calls with your customers directly from Chatwoot."
+      description: "Dyte é um produto que integra funcionalidades de áudio e vídeo em seu aplicativo. Com essa integração, seus agentes podem iniciar chamadas de vídeo/voz com seus clientes diretamente do SetaBot."
       meeting_name: "%{agent_name} começou a reunião"
     slack:
       name: "Slack"
-      description: "Integrate Chatwoot with Slack to keep your team in sync. This integration allows you to receive notifications for new conversations and respond to them directly within Slack's interface."
+      description: "Integre o SetaBot com o Slack para manter sua equipe sincronizada. Essa integração permite que você receba notificações de novas conversas e responda a elas diretamente na interface do Slack."
     webhooks:
       name: "Webhooks"
-      description: "Webhook events provide real-time updates about activities in your Chatwoot account. You can subscribe to your preferred events, and Chatwoot will send you HTTP callbacks with the updates."
+      description: "Eventos de webhook fornecem atualizações em tempo real sobre atividades na sua conta do SetaBot. Você pode assinar seus eventos preferidos, e o SetaBot enviará retornos de chamada HTTP com as atualizações."
     dialogflow:
       name: "Fluxo de diálogo"
-      description: "Build chatbots with Dialogflow and easily integrate them into your inbox. These bots can handle initial queries before transferring them to a customer service agent."
+      description: "Crie chatbots com o Dialogflow e integre-os facilmente à sua caixa de entrada. Esses bots podem lidar com consultas iniciais antes de transferi-las para um agente de atendimento ao cliente."
     google_translate:
       name: "Tradutor do Google"
-      description: "Integrate Google Translate to help agents easily translate customer messages. This integration automatically detects the language and converts it to the agent's or admin's preferred language."
+      description: "Integre o Google Translate para ajudar os agentes a traduzir facilmente as mensagens dos clientes. Essa integração detecta automaticamente o idioma e o converte para o idioma preferido do agente ou administrador."
     openai:
       name: "OpenAI"
-      description: "Leverage the power of large language models from OpenAI with the features such as reply suggestions, summarization, message rephrasing, spell-checking, and label classification."
+      description: "Aproveite o poder dos grandes modelos de linguagem do OpenAI com recursos como sugestões de resposta, resumo, reformulação de mensagens, verificação ortográfica e classificação de rótulos."
     linear:
       name: "Linear"
-      description: "Create issues in Linear directly from your conversation window. Alternatively, link existing Linear issues for a more streamlined and efficient issue tracking process."
+      description: "Crie problemas no Linear diretamente da sua janela de conversa. Como alternativa, vincule problemas existentes no Linear para um processo de rastreamento de problemas mais simplificado e eficiente."
     captain:
       name: "Captain"
-      description: "Captain is a native AI assistant built for your product and trained on your company's knowledge base. It responds like a human and resolves customer queries effectively. Configure it to your inboxes easily."
+      description: "O Captain é um assistente nativo de IA criado para seu produto e treinado na base de conhecimento da sua empresa. Ele responde como um humano e resolve as dúvidas dos clientes de forma eficaz. Configure-o para suas caixas de entrada facilmente."
   public_portal:
     search:
       search_placeholder: Pesquisar por artigo por título ou corpo...
