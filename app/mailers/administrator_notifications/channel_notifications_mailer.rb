@@ -64,7 +64,7 @@ class AdministratorNotifications::ChannelNotificationsMailer < ApplicationMailer
     return unless smtp_config_set_or_development?
 
     @action_url = file_url
-    subject = "Your contact's export file is available to download."
+    subject = "O arquivo de exportação do seu contato está disponível para download."
 
     send_mail_with_liquid(to: email_to, subject: subject) and return
   end
